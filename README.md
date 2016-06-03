@@ -4,7 +4,7 @@ Matlab implementation for Skipping Recurrent Neural Networks from:
 Gunnar A. Sigurdsson, Xinlei Chen, Abhinav Gupta <br /> 
 http://arxiv.org/abs/1604.04279
   
-The code is a MATLAB implementation of a Recurrent Neural Network, wrapped by the S-RNN architecture. This code is in extremely early beta, so please let me know if you encounter any strange behaviour.
+The code is a MATLAB implementation of a Recurrent Neural Network, wrapped by the S-RNN architecture. This code was recently released, so please let me know if you encounter any strange behaviour.
 
 The code is organized as follows:
 - ```rnn_trainnet.m``` is a script used for training the S-RNN

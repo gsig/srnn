@@ -11,9 +11,7 @@ outputnamebest = 'outputbest.mat';
 summaries = cell(50);
 scores = nan(50,1);
 clear A
-load([datadir,'test_paris.mat']);
-%load('paris10model.mat');
-load('testparis.mat');
+load('paris10model.mat');
 
     
 %if ~(matlabpool('size') > 0)

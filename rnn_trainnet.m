@@ -103,7 +103,7 @@ while learning_rate > ending_rate
             [~,ind] = sort(w(1:end-1),'descend');
             sprob = w(ind);
             sprob = sprob / sum(sprob);
-	    cumprob = cumsum(sprob); cumprob(end)=1;
+	    cumprob = cumsum(sprob);
             if j == 1
                 selw = 1;
             elseif j == subsampl

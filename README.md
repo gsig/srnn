@@ -12,6 +12,12 @@ The code is organized as follows:
 - ```predictnext_short.m``` is a code to run the short-term prediction experiment from the paper
 - ```predictnext_long.m``` is a code to run the long-term prediction experiment from the paper
 
+## Data
+The subset of Yahoo Flickr 100M used in the paper:
+https://dl.dropboxusercontent.com/u/10728218/data/storylines_data.zip (9.4 GB)
+
+This contains albums with image URLs and fc7 features in the format used by the code.
+
 ## Citation
 
 Please cite the following if it helps your research!

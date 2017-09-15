@@ -12,11 +12,25 @@ The code is organized as follows:
 - ```predictnext_short.m``` is a code to run the short-term prediction experiment from the paper
 - ```predictnext_long.m``` is a code to run the long-term prediction experiment from the paper
 
+
+
 ## Data
 The subset of Yahoo Flickr 100M used in the paper:
-https://dl.dropboxusercontent.com/u/10728218/data/storylines_data.zip (9.4 GB)
+https://www.dropbox.com/s/ghrieaikaobukz4/storylines_data.zip?dl=1 (9.4 GB)
 
 This contains albums with image URLs and fc7 features in the format used by the code.
+
+## Data for evaluating long-term prediction:
+https://www.dropbox.com/s/66cal9wa0iumgoa/evaluation.zip?dl=1 (0.4 GB)
+
+Using the below models should result in the following numbers corresponding to columns in Fig 6. right side in the paper.
+- srnn: 0.310648
+- rand: 0.214815
+- nn: 0.2875
+
+## Pre-trained models
+Pre-trained models:
+https://www.dropbox.com/s/zpuvm436ortrsw6/srnnmodels.zip?dl=1 (0.02 GB)
 
 ## Citation
 
@@ -25,9 +39,9 @@ Please cite the following if it helps your research!
     @article{sigurdsson2016learning,
       author = {Gunnar A. Sigurdsson and Xinlei Chen and Abhinav Gupta},
       title = {Learning Visual Storylines with Skipping Recurrent Neural Networks},
-      journal = {ArXiv e-prints},
-      eprint = {1604.04279}, 
+      journal = {European Conference on Computer Vision},
       year = {2016},
       url = {http://arxiv.org/abs/1604.04279},
+      poster = {http://www.eccv2016.org/files/posters/P-3A-26.pdf},
       pdf = {http://arxiv.org/pdf/1604.04279.pdf}
     }

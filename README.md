@@ -1,3 +1,5 @@
+**Update 8/3/2018**: We have added a PyTorch implementation of an SRNN layer that is a drop in replacement for nn.LSTM. This layer has been minimally tested and is under development.
+
 Matlab implementation for Skipping Recurrent Neural Networks from:
 
 > **_Learning Visual Storylines with Skipping Recurrent Neural Networks_** <br /> 
